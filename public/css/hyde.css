@@ -79,7 +79,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: Georgia, serif;
   font-size: 3.25rem;
 }
 
@@ -176,6 +176,15 @@ a.sidebar-nav-item:focus {
  */
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* Blue */
+.theme-base-07 .sidebar {
+  background-color: #005C5C;
+}
+.theme-base-07 .content a,
+.theme-base-07 .related-posts li a:hover {
+  color: #005C5C;
+}
 
 /* Red */
 .theme-base-08 .sidebar {
